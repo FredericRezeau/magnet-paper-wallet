@@ -7,20 +7,32 @@
     <meta name="description" content="Magnet - Minimalistic paper wallet">
     <style>
         div.header,div.warning{width:29.7cm;color:#fff}div.box.left,div.box.right,div.header{font-weight:700}body{background:#a6bac5}page{background:#fff;display:block;margin:0 auto .5cm;box-shadow:0 0 .5cm rgba(0,0,0,.5)}page[size=A4]{width:29.7cm;height:21cm}@media print{body,page{margin:0;box-shadow:0}}div{text-align:center;padding-top:15px;padding-bottom:15px}div.header{background-color:#92a6aa}div.warning{background-color:#ccd7d3;color:black}div.box{display:inline-block;width:50%;color:#8e9a9a}div.box>canvas{display:block;margin:0 auto}div.box>img{margin:0 auto}.key{width:90%;border-radius:9px;border:2px dotted #ccd7d3;padding:15px}
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <page size="A4">
         <div class="header"><h2>MAGNET - MINIMALISTIC PAPER WALLET</h2></div>
-        <div class="warning"><b>INSTRUCTIONS</b> Save this page and run it from your local (diconnected) computer.<br />[Ctrl] + [P] to print.</div>
+        <div class="warning"><b>INSTRUCTIONS</b> Save this page and run it from your local (disconnected) computer.<br />[Ctrl] + [P] to print.</div>
         <div class="box left"><h2>Private Key</h2></div><div class="box right"><h2>Public Key</h2></div>
         <div id="prikeyqr" class="box left"></div><div id="pubkeyqr" class="box right"></div>
         <div class="box left"><span id="prikey" class="key"></span></div><div class="box right"><span id="pubkey" class="key"></span></div>
         <div class="box left">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve" fill="#B75252"><path d="M256,16C123.452,16,16,123.452,16,256s107.452,240,240,240c132.549,0,240-107.452,240-240S388.549,16,256,16z M256,444.583 c-23.195,0-41.998-18.803-41.998-41.998s18.803-41.998,41.998-41.998c23.195,0,41.998,18.803,41.998,41.998 S279.196,444.583,256,444.583z M297.747,300.588c0,16.568-13.432,30-30,30h-23.494c-16.568,0-30-13.432-30-30l-25-209.986 c0-16.568,13.432-30,30-30h73.494c16.568,0,30,13.432,30,30L297.747,300.588z" /></svg><br />
             <span style="color:#B75252">WARNING: Never share your private key with anyone.</span>
-        </div><div class="box right">
         </div>
+        <div><a class="button" href="https://github.com/FredericRezeau/magnet-paper-wallet">View It On Github</a></div>
     </page>
     <!-- Dependencies
         elliptic (MIT License): https://github.com/indutny/elliptic
