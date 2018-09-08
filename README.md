@@ -4,7 +4,7 @@ Minimalistic, print-optimized, offline, paper wallet for Magnet.
 Download and run locally (from a disconnected environment for increased security) to generate your Magnet (MAG) addresses.
 Pull requests welcome.
 
-See it live: http://magnetwork.io/Wallets/paperwallet.html
+See it live: https://magnetwork.io/Wallets/paperwallet.html
 
 ### NOTES
 
