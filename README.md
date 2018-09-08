@@ -6,6 +6,10 @@ Pull requests welcome.
 
 See it live: http://magnetwork.io/Wallets/paperwallet.html
 
+## NOTES
+
+This project makes use of https://github.com/indutny/elliptic for elliptic curve cryptography primitives and https://github.com/davidshimjs/qrcodejs for QR code generation.
+
 ### LICENSE
 
 This software is licensed under the MIT License.
