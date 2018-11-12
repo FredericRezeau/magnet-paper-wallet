@@ -1,3 +1,5 @@
+COMPATIBLE WITH NEW CHAIN ADDRESSES.
+
 # magnet-paper-wallet
 Minimalistic, print-optimized, offline, paper wallet for Magnet.
 
