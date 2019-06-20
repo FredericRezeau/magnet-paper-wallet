@@ -87,8 +87,8 @@
         var keys = Magnet.generateKeys(Magnet.getRandomBytes(256));
         document.getElementById("pubkey").innerHTML = keys.public;
         document.getElementById("prikey").innerHTML = keys.private;
-        new QRCode(document.getElementById("pubkeyqr"), "keys.public");
-        new QRCode(document.getElementById("prikeyqr"), "keys.private");
+        new QRCode(document.getElementById("pubkeyqr"), keys.public);
+        new QRCode(document.getElementById("prikeyqr"), keys.private);
     </script>
 </body>
 </html>
